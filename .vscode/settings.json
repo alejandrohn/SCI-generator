@@ -1,0 +1,28 @@
+{
+    "python.linting.pylintEnabled": false,
+    "python.linting.enabled": true,
+    "python.linting.pylintCategorySeverity.error": "Error",
+    "python.linting.pep8Enabled": false,
+    "python.formatting.provider": "autopep8",
+    "python.linting.pep8Args": [
+        "--ignore=E303"
+    ],
+    "files.exclude": {
+        "**/*.pyc": true
+    },
+    "python.linting.lintOnSave": true,
+    "python.linting.pylintArgs": ["--reports", "12", "--disable-msg", "I0011"],
+    "python.linting.flake8Args": [
+        "--ignore=E24,W504", 
+          "--ignore=E402,F841,F401,E302,E305",
+        "--max-line-length=130", "--verbose"],
+    "python.linting.pydocstyleArgs": [
+        "--ignore=D400",
+        "--ignore=D4"
+    ],
+    "python.linting.pylintCategorySeverity.convention": "Information",
+    "python.linting.flake8Enabled": true,
+    "editor.formatOnType": true,
+    "editor.formatOnSave": true,
+    "files.autoSave": "afterDelay"
+}

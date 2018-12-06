@@ -1,4 +1,5 @@
 # SCI-generator
-generator for minizinc model dzn
 
-start execute python main.py
+generator of minizinc models
+
+run main.py  $python main.py
